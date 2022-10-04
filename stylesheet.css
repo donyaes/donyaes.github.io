@@ -9,8 +9,9 @@ body{
 }
 #large_green_box{
   display: flex;
+  flex-direction: column;
   width: 50%;
-  height: 50%;
+  height: 75%;
   align-items: center;
   justify-content: center;
   border-radius: 25px;
@@ -18,9 +19,12 @@ body{
 }
 p{
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   font-family: Milky Coffee;
   color: #F2EED8;
+}
+#body-paragraph{
+  font-family: Honey Mints;
 }
 
 @font-face {
